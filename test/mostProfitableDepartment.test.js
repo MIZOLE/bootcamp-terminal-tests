@@ -1,0 +1,1 @@
+var functionToTest = require('../mostProfitableDepartment.js');
