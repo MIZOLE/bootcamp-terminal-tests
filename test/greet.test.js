@@ -1,8 +1,8 @@
-let functionToTest = require('../greet.js');
+const greet = require('../greet');
 
 let assert = require("assert");
 
-describe('The greet function', function(){
+describe('The greetfunction', function(){
 
     it('should greet Lulama correctly', function(){
         assert.equal('Hello, Lulama', greet('Lulama'));

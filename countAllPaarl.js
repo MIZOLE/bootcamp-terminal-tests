@@ -1,9 +1,7 @@
 module.exports = function countAllPaarl(reg){
     //you functions logic here
     
-      console.log(reg)
-      
-        
+      // console.log(reg)
       var anc = reg.split(", ")
       var firstPaarl=""
       var array1 = []

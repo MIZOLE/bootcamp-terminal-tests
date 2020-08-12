@@ -1,6 +1,6 @@
 module.exports = function transportFee(shift) {
     //you functions logic here
-    if (shift == "morning") {
+    if (shift === "morning") {
         return "R20";
 
     } else
