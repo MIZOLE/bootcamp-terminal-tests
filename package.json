@@ -1,0 +1,27 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "run test",
+  "main": "countAllFromTown.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MIZOLE/camp-testing.git"
+  },
+  "keywords": [
+    "run"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MIZOLE/camp-testing/issues"
+  },
+  "homepage": "https://github.com/MIZOLE/camp-testing#readme"
+}
