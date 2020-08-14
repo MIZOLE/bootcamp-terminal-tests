@@ -18,16 +18,14 @@ var salesData = [
     {department: 'outdoor', sales: 12006, day: 'Friday'},
     {department: 'carpentry', sales: 16109, day: 'Friday'}
 ];
-var most = "Thursday"
-var lowest = "Monday"
 
 describe("mostProfitableDepartment function", function () {
 
     it("should find the most profitable", function () {
-        assert.equal("outdoor", mostProfitableDepartment(salesData, most)) 
+        assert.equal("outdoor", mostProfitableDepartment(salesData)) 
     })
 
     it("should find the lowest profitable", function () {
-        assert.equal("outdoor", mostProfitableDepartment(salesData, lowest)) 
+        assert.equal("outdoor", mostProfitableDepartment(salesData)) 
     })
 });
