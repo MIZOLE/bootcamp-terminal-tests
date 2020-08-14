@@ -1,13 +1,17 @@
 {
-  "name": "mocha",
+  "name": "Bootcamp-terminal-tests",
   "version": "1.0.0",
-  "description": "run test",
+  "description": "",
   "main": "countAllFromTown.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "12": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -15,9 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/MIZOLE/camp-testing.git"
   },
-  "keywords": [
-    "run"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {

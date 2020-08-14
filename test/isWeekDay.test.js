@@ -5,9 +5,13 @@ let assert = require("assert");
 
 describe("isWeekday function", function () {
 
-    it(" should test is week day", function () {
-        assert.equal(isWeekday("Monday") , true);
-        assert.equal(isWeekday("Sunday") ,false);
+    it(" should rturn true if it's weekday", function () {
+        assert.equal(isWeekday("Monday"), true);
+
+    })
+
+    it(" should rturn false if it's not weekday", function () {
+        assert.equal(isWeekday("Sunday"), false);
 
     })
 })
