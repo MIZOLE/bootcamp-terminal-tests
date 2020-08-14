@@ -8,7 +8,7 @@ module.exports = function mostProfitableDepartment(dip) {
 
     for (var i = 0; i < Deplist.length; i++) {
         var currentDepartment = Deplist[i].department;
-        console.log(currentDepartment)
+
         if (ProfitableDepartmentMap[currentDepartment] === undefined) {
             ProfitableDepartmentMap[currentDepartment] = 0;
         }
@@ -26,29 +26,7 @@ module.exports = function mostProfitableDepartment(dip) {
     return dep;
 }
 
-function mostProfitableDay(themostsale) {
-    var mostSaleDay = themostsale
 
-    var themostsaleMap = {}
-    //console.log(themostsale)
-    for (var i = 0; i < mostSaleDay.length; i++) {
-        var currentDay = mostSaleDay[i].day;
-
-        if (themostsaleMap[currentDay] === undefined) {
-            themostsaleMap[currentDay] = 0;
-        }
-        themostsaleMap[currentDay] = themostsaleMap[currentDay] + mostSaleDay[i].sales;
-    }
-    var day = "";
-    var profDay = 0;
-    for (var y in themostsaleMap) {
-        if (themostsaleMap[y] > profDay) {
-            profDay = themostsaleMap[y]
-            day = y
-        }
-    }
-    return day;
-}
 
 
 
